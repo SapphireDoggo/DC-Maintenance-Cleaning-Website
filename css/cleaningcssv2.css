@@ -311,7 +311,7 @@ input[type=submit]:hover {
     float: left;
     width: 50%;
     /* margin-top: 6px; */
-    padding-bottom: 20px;  /* used to be just padding alone */
+    padding: 20px;  /* used to be just padding alone */
 }
 
 /* Clear floats after the columns */
