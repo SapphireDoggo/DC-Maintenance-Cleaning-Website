@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
 <html>
 	<head>
 		<title>DC Maintenance</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/cleaningcssv2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cleaningcss.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/png" href="https://i.imgur.com/HehQeAC.png"/> <!---FAVICON-->
 	</head>
@@ -13,20 +13,24 @@
 <body>
 
 <!-- NAVIGATION BAR -->
-<div class="topnav" id="myTopnav">
-	<img id="logo" src="images/logo2.png">
-	<a href="home.html" class="activebutton">HOME</a>
-	<a href="aboutus.html" class="button">ABOUT US</a>
-	<a href="services.html" class="button">SERVICES</a>
-	<a href="pricing.html" class="button">PRICING</a>
-	<a href="contact.html" class="button">CONTACT</a>
-	<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+<nav>
+	<h1><a href="home.html"><img class="dclogo" src="images/logo-long2.png"></a></h1>
+	<div class="topnav" id="myTopnav">
+
+		<a href="home.html" class="activebutton">HOME</a>
+		<a href="aboutus.html" class="button">ABOUT US</a>
+		<a href="services.html" class="button">SERVICES</a>
+		<a href="pricing.html" class="button">PRICING</a>
+		<a href="contact.html" class="button">CONTACT</a>
+		<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+</nav>
 
 
 <div class="divider"></div>
 <div class="clearfix"></div>
 
+</div>
 
 <!-- MAIN BODY -->
 <div class="row">
@@ -50,7 +54,7 @@
 				∙ Eco-Friendly<br>
 				∙ Family Owned<br></p>
 
-				<button class="buttoncontact"><a href="contact.html">Request Quote</a></button>
+				<button class="buttoncontact"><a href="contact.html"><b>Request Quote</b></a></button>
   </div>
   <div class="main">
       <img src="images/wideimage.jpg" style="width:100%">
@@ -113,25 +117,23 @@
 
 </footer>
 
-
-
 </div>
 
 
 
 
 
-		<!-- JAVASCRIPT -->
-			<script>
-			function myFunction() {
-			    var x = document.getElementById("myTopnav");
-			    if (x.className === "topnav") {
-			        x.className += " responsive2";
-			    } else {
-			        x.className = "topnav";
-			    }
-			}
-			</script>
+<!-- JAVASCRIPT -->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive2";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 </body>
 </html>
